@@ -32,5 +32,5 @@ spec:
             claimName: downloads-pvc
         - name: nfs-downloads
           hostPath:
-            path: /media/ytdp-downloads
+            path: /media/ytdlp-downloads
             type: Directory
