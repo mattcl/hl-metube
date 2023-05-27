@@ -24,13 +24,7 @@ spec:
           volumeMounts:
             - name: downloads
               mountPath: /downloads
-            - name: nfs-downloads
-              mountPath: /downloads/nfs
       volumes:
         - name: downloads
           persistentVolumeClaim:
             claimName: downloads-pvc
-        - name: nfs-downloads
-          hostPath:
-            path: /media/ytdlp-downloads
-            type: Directory
