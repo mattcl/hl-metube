@@ -5,6 +5,9 @@ resources:
   - ../../components/app
 namespace: "metube"
 namePrefix: "metube-"
+images:
+  - name: "ghcr.io/alexta69/metube"
+    newTag: "latest"
 configMapGenerator:
   - name: app-config
     envs:
