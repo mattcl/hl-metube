@@ -7,7 +7,7 @@ namespace: "metube"
 namePrefix: "metube-"
 images:
   - name: "ghcr.io/alexta69/metube"
-    newTag: "2024-11-19"
+    newTag: "2025-07-01"
 configMapGenerator:
   - name: app-config
     envs:
